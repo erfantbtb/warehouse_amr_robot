@@ -4,16 +4,16 @@ This repo aims to develop a simulation environment for warehouse AGV/AMR for stu
 
 ## 🚀 Project Implementation Checklist
 ### Core Simulation Features
-- [ ] Basic AGV model in Gazebo
-  - [ ] URDF/Xacro model
+- [x] Basic AGV model in Gazebo
+  - [x] URDF/Xacro model
   - [ ] Proper inertial properties
-  - [ ] Collision boundaries
-  - [ ] Visual appearance
+  - [x] Collision boundaries
+  - [x] Visual appearance
 
 - [ ] Sensor integration
-  - [ ] 2D Lidar
   - [x] 3D Camera/Depth sensor
-  - [ ] Ultrasonic for dynamic obstacle avoidance
+  - [x] 3D front lidar
+  - [ ] 3D back lidar 
   - [x] IMU
   - [x] Odometry
 - [x] Environment
@@ -32,7 +32,7 @@ This repo aims to develop a simulation environment for warehouse AGV/AMR for stu
 - [ ] Autonomous Navigation
   - [x] Waypoint following
   - [ ] Obstacle avoidance
-  - [ ] Recovery behaviors
+  - [x] Recovery behaviors
   - [ ] Charging station
 
 ### Control System
