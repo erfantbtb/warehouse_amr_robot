@@ -87,16 +87,18 @@ sudo apt install ros-humble-nav2-bringup
 
 * Build
 ```
-cd ros2_ws2/
+git clone git@github.com:erfantbtb/warehouse_amr_robot.git
+cd warehouse_amr_robot/
 colcon build --symlink-install
 ```
 * Source environment (to have access to your workspace packages)
 ``` 
+source /opt/ros/humble/setup.bash
 source install/setup.bash
 ```
 
 * Run example
 ```
-ros2 launch my_agv2 agv5_demo.launch.py
+ros2 launch robot_description display.launch.py
 ```
 
